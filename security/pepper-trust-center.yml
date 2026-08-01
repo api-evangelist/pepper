@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: live probe of trust.<domain> + security keyword scan
+url: https://trust.usepepper.com/
+host: vanta
+certifications: []
+notes: >-
+  A live Vanta-hosted Trust Center is published at https://trust.usepepper.com/
+  (HTTP 200, "Trust Center" + "vanta" markers present). The specific certification
+  list (e.g. SOC 2) is rendered client-side by the Vanta single-page app and could
+  not be verified from the static HTML, so no named certifications are asserted here.
+evidence:
+  - source: https://trust.usepepper.com/
+    keywords: [trust center, vanta]

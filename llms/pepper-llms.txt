@@ -1,0 +1,23 @@
+# Pepper
+
+> Pepper is an AI-first operating platform for independent food and beverage distributors, helping them compete, scale, and win with automated workflows across ordering, sales, marketing, and finance. Pepper is backed by Greylock, ICONIQ Capital, and Index Ventures.
+
+Pepper does not publish a public API or developer portal at this time. This file is generated from the API Evangelist catalog entry and the provider's public marketing surface.
+
+## Products
+- Storefront: A digital, B2C-style ordering experience for a distributor's operators.
+- Order Agent: AI-powered order capture and automation across voice, text, image, and handwriting.
+- Sales Hub: Tools for distributor sales representatives.
+- Marketing Hub: Direct-to-operator advertising and marketing.
+- Finance Hub: Payments and collections management.
+
+## Industries
+Broadline, produce, seafood, meat, JanSan, convenience, coffee, alcohol, and ice cream distribution.
+
+## Company
+- Website: https://www.usepepper.com
+- Pricing: https://www.usepepper.com/pricing
+- Blog / Resources: https://www.usepepper.com/resources
+- Security: https://www.usepepper.com/solutions/security
+- Trust Center: https://trust.usepepper.com/
+- Sign in: https://distributors.usepepper.com/login

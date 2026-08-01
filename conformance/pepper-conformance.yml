@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.usepepper.com/solutions/security
+standards:
+- id: pci-dss
+  conforms: true
+  evidence: >-
+    The Pepper security page (https://www.usepepper.com/solutions/security) states
+    "PCI DSS Compliant" and that Pepper maintains Payment Card Industry Data Security
+    Standard compliance for its Finance Hub payments and collections product.
+- id: soc2
+  conforms: unknown
+  evidence: >-
+    A Vanta-hosted Trust Center exists at https://trust.usepepper.com/ but the
+    specific framework list (e.g. SOC 2) is rendered client-side and could not be
+    verified from static HTML.
+notes: >-
+  Pepper (Pomegranate Technologies, Inc.) publishes no public API, so no
+  API-level cross-cutting standards (OAuth2/OIDC, RFC 9457, JSON:API, pagination,
+  idempotency) could be asserted. Only company/product compliance posture is
+  captured here.

@@ -1,8 +1,28 @@
 aid: pepper
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pepper.png
 name: Pepper
-description: 'Pepper is a company surfaced as a portfolio company of greylock, iconiq-capital, index-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: applications. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Pepper is an AI-first operating platform for independent food and beverage distributors,
+  helping them compete with larger enterprises through automation and digital tooling. Its
+  product suite spans a B2C-style Storefront for operator ordering, an AI Order Agent that
+  captures orders across voice, text, image, and handwriting, a Sales Hub for reps, a
+  Marketing Hub for direct-to-operator advertising, and a Finance Hub for payments and
+  collections. Pepper integrates with 70+ ERP systems and serves broadline, produce,
+  seafood, meat, JanSan, convenience, coffee, alcohol, and ice cream distribution. The
+  company is backed by Greylock, ICONIQ Capital, and Index Ventures. Pepper does not
+  currently publish a public API or developer portal; this profile captures its public
+  company and security surface.
 url: https://raw.githubusercontent.com/api-evangelist/pepper/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Applications
+- Food and Beverage
+- Distribution
+- Wholesale
+- Order Management
+- Artificial Intelligence
+- ERP Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +52,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.usepepper.com
+  url: https://www.usepepper.com
+- type: Pricing
+  url: https://www.usepepper.com/pricing
+- type: Blog
+  url: https://www.usepepper.com/resources
+- type: Login
+  url: https://distributors.usepepper.com/login
+- type: Support
+  url: https://www.usepepper.com/contact
+- type: TermsOfService
+  url: https://www.usepepper.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.usepepper.com/privacy-policy
+- type: Security
+  url: https://www.usepepper.com/solutions/security
+- type: Compliance
+  url: https://www.usepepper.com/solutions/security
+- type: Conformance
+  url: conformance/pepper-conformance.yml
+- type: TrustCenter
+  url: https://trust.usepepper.com/
+- type: DomainSecurity
+  url: security/pepper-domain-security.yml
+- type: LLMsTxt
+  url: llms/pepper-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
